@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class lab1 {
+class lab3 {
     int main() {
         int n;
         cout<<"Input n(n>=2): ";
@@ -16,4 +16,5 @@ class lab1 {
         }
         return 0;
     }
+
 };
