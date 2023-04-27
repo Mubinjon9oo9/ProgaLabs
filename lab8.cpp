@@ -19,5 +19,4 @@ class lab8 {
         cout<<quantity;
         return 0;
     }
-
 };
