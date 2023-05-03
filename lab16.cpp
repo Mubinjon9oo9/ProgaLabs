@@ -10,7 +10,6 @@ int lab16(){
     int a=0;
     string line;
     setlocale(LC_ALL, "rus"); // корректное отображение Кириллицы
-    char buff[50]; // буфер промежуточного хранения считываемого из файла текста
     ifstream fin("/Users/mubinjon9009/CLionProjects/untitled1/files/text16.txt"); // открыли файл для чтения
     while(getline(fin,line)){
         int ti = stoi(line);
