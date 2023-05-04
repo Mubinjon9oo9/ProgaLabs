@@ -16,7 +16,7 @@ int lab1::start() {
         cout << ": ";
         cin >> x[i];
     }
-    double x1 = find_px(x[1] + 1) - find_px(x[1]);
+    double x1 = find_px(x[1] + 1) - find_px(x[1]);//переделать
     double x3 = find_px(x[3] + 1) - find_px(x[3]);
     double x4 = find_px(x[4] + 1) - find_px(x[4]);
     cout << "X1 = "<<x1<<endl;

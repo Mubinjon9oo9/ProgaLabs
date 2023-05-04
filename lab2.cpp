@@ -14,15 +14,11 @@ int lab2::start() {
         if (a > 1 && a < 3) {
             break;
         }
-    }
-    while (true) {
         cout << "Input b (0.5<b<4.5): ";
         cin >> b;
         if (b > 0.5 && b < 4.5) {
             break;
         }
-    }
-    while (true) {
         cout << "(c+d>2.5)\nInput c:";
         cin >> c;
         cout << "Input d:";

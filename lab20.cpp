@@ -1,40 +1,41 @@
 //
 // Created by MUBINJON AKILZHONOV on 03.05.2023.
 //
-
 #include "lab20.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
 using namespace std;
 int lab20::start() {
-    int index=0;
     string text="";
     string line;
-    setlocale(LC_ALL, "rus"); // корректное отображение Кириллицы
-    ifstream fin("/Users/mubinjon9009/CLionProjects/untitled1/files/text20.txt"); // открыли файл для чтения
+    setlocale(LC_ALL, "rus");
+    ifstream fin("/Users/mubinjon9009/CLionProjects/untitled1/files/text20.txt");
     while(getline(fin,line)){
         string str;
         stringstream ss(line);
         int a=0;
-        cout<<line;
         while (getline(ss, str, ' ')) {
             switch(a){
                 case 0:{
-                    text+=str+" ";
+                    text=text+str+" ";
+                    break;
                 }
-                break;
                 case 1: {
-                    text+=str+".";
+                    text=text+str.substr(0,2)+".";
+                    break;
                 }
-                break;
                 case 2: {
-                    text+=str+".\n";
+                    text=text+str.substr(0,2)+"., ";
+                    break;
                 }
             }
             a++;
         }
-        cout<<text;
-        return 0;
     }
+    ofstream out;
+    out.open("/Users/mubinjon9009/CLionProjects/untitled1/files/text20-1.txt");
+    out<<text;
+    out.close();
+    return 0;
 }
