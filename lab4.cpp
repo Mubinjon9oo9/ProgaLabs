@@ -1,6 +1,6 @@
 #include <iostream>
+#include "lab4.h"
 using namespace std;
-class lab4 {
     int nod(int y,int x){
         while (x != y) {
             if (x>y) {
@@ -12,7 +12,7 @@ class lab4 {
         }
         return x;
     }
-    int main() {
+    int lab4::start() {
         cout<<"Input n: ";
         int n;
         cin >>n;
@@ -23,5 +23,3 @@ class lab4 {
         }
         return 0;
     }
-
-};

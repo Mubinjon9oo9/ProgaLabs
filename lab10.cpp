@@ -1,7 +1,7 @@
 #include <iostream>
+#include "lab10.h"
 using namespace std;
-class lab8 {
-    int main(){
+int lab10::start() {{
         int n;
         cout<<"Input n: ";
         cin>>n;

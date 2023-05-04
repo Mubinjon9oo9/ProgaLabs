@@ -6,7 +6,7 @@
 #include <iostream>
 #include "fstream"
 using namespace std;
-int lab16(){
+int lab16::start() {
     int a=0;
     string line;
     setlocale(LC_ALL, "rus"); // корректное отображение Кириллицы

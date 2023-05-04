@@ -1,11 +1,12 @@
 #include <iostream>
+#include "lab9.h"
 using namespace std;
-class lab8 {
+
     int getNum(char s){
         int a=s-'0';
         return a;
     }
-    int main(){
+    int lab9::start() {
         int a =2,c=0;
         string answer="";
         string factorial = "93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000";
@@ -25,4 +26,3 @@ class lab8 {
         cout<<answer<<endl;
         return 0;
     }
-};

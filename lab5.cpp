@@ -1,7 +1,7 @@
 #include <iostream>
+#include "lab5.h"
 using namespace std;
-class lab4 {
-    int main() {
+int lab5::start() {
         cout<<"Input n: ";
         int n;
         cin >>n;
@@ -11,5 +11,3 @@ class lab4 {
         cout<< false;
         return 0;
     }
-
-};

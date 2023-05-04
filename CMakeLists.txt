@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.24)
+project(main.out)
+set(CMAKE_CXX_STANDARD 17)
+INCLUDE_DIRECTORIES(project/include)
+find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
+add_executable(${PROJECT_NAME} main.cpp lab11.cpp lab11.h lab12.cpp lab12.h lab16.cpp lab16.h lab17.cpp lab17.h lab18.cpp lab18.h lab20.cpp lab20.h lab2.cpp lab1.h lab1.cpp lab3.h lab3.cpp lab4.h lab5.h lab7.h lab8.h lab9.h lab10.h lab4.cpp lab7.cpp)
+target_link_libraries(main.out sfml-graphics sfml-audio)

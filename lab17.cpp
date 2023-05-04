@@ -5,8 +5,9 @@
 #include "lab17.h"
 #include <iostream>
 #include <fstream>
+
 using namespace std;
-int lab17(){
+int lab17::start() {
     ofstream out;
     out.open("/Users/mubinjon9009/CLionProjects/untitled1/files/text17.txt");
     int n=0;

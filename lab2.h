@@ -7,7 +7,8 @@
 
 
 class lab2 {
-
+public:
+    int start();
 };
 
 

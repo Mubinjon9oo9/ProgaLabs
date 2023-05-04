@@ -4,7 +4,7 @@
 
 #include "lab11.h"
 #include <SFML/Graphics.hpp>
-int lab11()
+int lab11::start()
 {
     sf::RenderWindow window(sf::VideoMode(800, 1200), "SFML works!");
     sf::CircleShape triangle(225.f, 3);

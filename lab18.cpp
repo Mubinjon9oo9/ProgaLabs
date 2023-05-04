@@ -6,7 +6,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-int lab18(){
+int lab18::start() {
     ofstream out;
     out.open("/Users/mubinjon9009/CLionProjects/untitled1/files/text18.txt");
     int n;

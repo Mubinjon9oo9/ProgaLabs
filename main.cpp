@@ -1,13 +1,11 @@
-//
-// Created by MUBINJON AKILZHONOV on 03.05.2023.
-//
-
-#include "lab20.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include "lab3.h"
 using namespace std;
-int lab20::start() {
+int main(){
+    ::lab3 l;
+    l.start();
     int index=0;
     string text="";
     string line;
@@ -21,15 +19,15 @@ int lab20::start() {
         while (getline(ss, str, ' ')) {
             switch(a){
                 case 0:{
-                    text+=str+" ";
+                    text=text+str+" ";
                 }
-                break;
+                    break;
                 case 1: {
-                    text+=str+".";
+                    text=text+str+".";
                 }
-                break;
+                    break;
                 case 2: {
-                    text+=str+".\n";
+                    text=text+str+".\n";
                 }
             }
             a++;

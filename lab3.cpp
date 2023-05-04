@@ -1,7 +1,7 @@
 #include <iostream>
+#include "lab3.h"
 using namespace std;
-class lab3 {
-    int main() {
+int lab3::start(){
         int n;
         cout<<"Input n(n>=2): ";
         cin>>n;
@@ -16,5 +16,3 @@ class lab3 {
         }
         return 0;
     }
-
-};

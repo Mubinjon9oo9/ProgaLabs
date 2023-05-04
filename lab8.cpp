@@ -1,7 +1,7 @@
 #include <iostream>
+#include "lab8.h"
 using namespace std;
-class lab8 {
-    int main() {
+int lab8::start() {
         int n;
         float quantity=0;
         cout<<"Input n(n>=2): ";
@@ -19,4 +19,3 @@ class lab8 {
         cout<<quantity;
         return 0;
     }
-};

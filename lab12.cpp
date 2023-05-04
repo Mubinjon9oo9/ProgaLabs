@@ -12,7 +12,7 @@ string space(int i) {
     }
     return spc;
 }
-int lab12()
+int lab12::start()
 {
     int n=50,a=-1,b=4;
     float h = (b-a)/n;
