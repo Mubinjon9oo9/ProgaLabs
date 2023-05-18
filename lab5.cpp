@@ -6,8 +6,9 @@ int lab5::start() {
         int n;
         cin >>n;
         if (n<=25){
-            cout<< true;
+            cout<<"YES";
+            return 0;
         }
-        cout<< false;
+        cout<< "NO";
         return 0;
     }

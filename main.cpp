@@ -1,7 +1,6 @@
-#include "lab20.h"
-#include <iostream>
+#include "lab24.h"
 using namespace std;
 int main(){
-    ::lab20 l;
+    ::lab24 l;
     l.start();
 }

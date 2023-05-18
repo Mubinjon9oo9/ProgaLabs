@@ -22,9 +22,9 @@ int lab1::start() {
     double x1 = find_px(x[1] + 1) - find_px(x[1]);
     double x3 = find_px(x[3] + 1) - find_px(x[3]);
     double x4 = find_px(x[4] + 1) - find_px(x[4]);
-    cout << "X1 = "<<x1<<endl;
-    cout << "X3 = "<<x3<<endl;
-    cout << "X4 = "<<x4<<endl;
+    cout << "Значение выражения p(x-1) - p(x) при x = 1: " << x1 << endl;
+    cout << "Значение выражения p(x-1) - p(x) при x = 3: " << x3 << endl;
+    cout << "Значение выражения p(x-1) - p(x) при x = 4: " << x4 << endl;
     return 0;
 }
 

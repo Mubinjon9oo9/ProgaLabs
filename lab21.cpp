@@ -11,6 +11,7 @@ int lab21::start() {
     setlocale(LC_ALL, "rus");
     ifstream in("/Users/mubinjon9009/CLionProjects/untitled1/files/text21.txt");
     ifstream in1("/Users/mubinjon9009/CLionProjects/untitled1/files/text21.txt");
+    //Цикл для суммирования колличества вещей и нахождения среднего
     while (getline(in, line)) {
         int num = line[0] - '0';
         q += num;

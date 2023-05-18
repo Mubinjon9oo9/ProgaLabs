@@ -12,5 +12,4 @@ public:
     int start();
 };
 
-
 #endif //MAIN_OUT_LAB23_H
