@@ -3,7 +3,7 @@
 using namespace std;
     int nod(int y,int x){
         while (x != y) {
-            if (x>y) {
+            if (x>=y) {
                 x = x-y;
             }
             else {

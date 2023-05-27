@@ -2,13 +2,20 @@
 #include "lab5.h"
 using namespace std;
 int lab5::start() {
-        cout<<"Input n: ";
+    while (true){
+        cout << "Input n: ";
         int n;
-        cin >>n;
-        if (n<=25){
-            cout<<"YES";
-            return 0;
+        cin >> n;
+        if(n==0){
+            cout<<"BREAK"<<endl;
+            break;
         }
-        cout<< "NO";
+        else if (n <= 25) {
+            cout << "YES"<<endl;
+        }
+        else{
+            cout << "NO"<<endl;
+        }
+    }
         return 0;
     }
